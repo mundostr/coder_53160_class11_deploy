@@ -35,5 +35,5 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: "coder-53160"
-          entrypoint: "app.js"
-          root: "src"
+          entrypoint: "/app.js"
+          root: "/src"
